@@ -1,0 +1,78 @@
+name: my_drawing_firebase
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.3.3
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  shared_preferences: ^2.5.3
+  path_provider: ^2.1.5
+  image_picker: ^1.0.7
+  permission_handler: ^11.3.1
+  flutter_colorpicker: ^1.1.0
+  image: ^4.2.0
+  share_plus: ^12.0.1
+  image_gallery_saver: ^2.0.3  # <-- Ye zaroori tha gallery save ke liye
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.6.12
+  firebase_storage: ^12.4.10
+  http: ^1.1.0
+  just_audio: ^0.9.31
+  audioplayers: ^6.5.1
+  lottie: ^2.2.0
+  confetti: ^0.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/art.png
+    - assets/pencil.png
+    - assets/brush.png
+    - assets/colors.png
+    - assets/canvas.png
+    - assets/eraser.png
+    - assets/palette.png
+    - assets/sketchbook.png
+    - assets/marker.png
+    - assets/artist.png
+    - assets/creativity.png
+    - assets/masterpiece.png
+    - assets/idea.png
+    - assets/icon_blur.png
+    - assets/icon_crop.png
+    - assets/icon_fill.png
+    - assets/icon_folder.png
+    - assets/icon_gradient.png
+    - assets/icon_layer.png
+    - assets/icon_opacity.png
+    - assets/icon_redo.png
+    - assets/icon_save.png
+    - assets/icon_share.png
+    - assets/icon_size.png
+    - assets/icon_smudge.png
+    - assets/icon_sticker.png
+    - assets/icon_text.png
+    - assets/icon_texture.png
+    - assets/icon_transform.png
+    - assets/icon_undo.png
+    - assets/sounds/brush.mp3
+    - assets/sounds/eraser.mp3
+    - assets/sounds/save.mp3
+    - assets/animations/loading.json
